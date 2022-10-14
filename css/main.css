@@ -337,7 +337,7 @@ img {
   line-height: 1.88;
   color: var(--primary-color);
 }
-.mailing-list__::after {
+.mailing-list__button::after {
   margin-left: 10px;
   content: "";
   width: 24px;
@@ -405,7 +405,8 @@ img {
 .about-company__item:not(:last-child) {
   margin-right: 30px;
 }
-.about-company__advantages-section {
+
+.advantages-section {
   margin-bottom: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -420,7 +421,15 @@ img {
   height: 120px;
   background-color: var(--secondary-background-color);
 }
-.about-company__advantages {
+.advantages-section__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  text-transform: uppercase;
+  color: var(--header-text-color);
+  margin-bottom: 10px;
+}
+.advantages-section__description {
   width: 270px;
   line-height: 1.71;
 }
@@ -824,6 +833,10 @@ img {
 }
 .modal-form__label {
   margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.17;
+  color: var(--description-text-color);
+  letter-spacing: 0.01em;
 }
 .modal-form__input:focus + .modal-form__form-icon {
   fill: var(--secondary-color);
@@ -910,7 +923,7 @@ img {
 }
 .accept__label {
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.17;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

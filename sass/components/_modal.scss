@@ -100,6 +100,11 @@
 
   &__label {
     margin-bottom: 4px;
+    font-size: 12px;
+    line-height: 1.17;
+    color: var(--description-text-color);
+
+    letter-spacing: 0.01em;
   }
 
   &__input:focus + &__form-icon {
@@ -197,7 +202,7 @@
 
   &__label {
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 1.17;
 
     display: flex;
     justify-content: center;

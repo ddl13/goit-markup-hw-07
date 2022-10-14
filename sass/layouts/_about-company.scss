@@ -18,19 +18,28 @@
       margin-right: 30px;
     }
   }
+}
 
-  &__advantages-section {
-    margin-bottom: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.advantages-section {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    width: 270px;
-    height: 120px;
-    background-color: var(--secondary-background-color);
+  width: 270px;
+  height: 120px;
+  background-color: var(--secondary-background-color);
+
+  &__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    text-transform: uppercase;
+    color: var(--header-text-color);
+    margin-bottom: 10px;
   }
 
-  &__advantages {
+  &__description {
     width: 270px;
     line-height: 1.71;
   }
